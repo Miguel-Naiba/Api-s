@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Filmes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <h1>Pesquise um Filme</h1>
+        
+        <div class="search-container">
+            <input type="text" id="movieSearch" placeholder="Digite o nome do filme" />
+            <button id="searchButton">Pesquisar</button>
+        </div>
+
+        <!-- Carregando e detalhes do filme -->
+        <div id="loading" class="loading">Carregando...</div>
+        <div id="movieDetails" class="movie-details"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
